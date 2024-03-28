@@ -12,7 +12,9 @@ The attributes of a file can be modified by adding "file arguments" to the filen
 * `b__` (where `__` is a number) forces the file to start at the given block.
 
 For example, if you execute the tool with the following arguments:
-`upd765pro test-dsk.dsk main.bin,ro image.bin,ro,sys`
+
+```upd765pro test-dsk.dsk main.bin,ro image.bin,ro,sys```
+
 A disk image called `test-dsk.dsk` will be created. The file `main.bin` will be added to the disk and marked read-only, and the file `image.bin` will be added to the disk and marked as both read-only and a system file.
 
 ## Things to note
